@@ -1,0 +1,153 @@
+/* import fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+/* roots */
+:root {
+  --Dark-cyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+
+  --Very-dark-blue: hsl(212, 21%, 14%);
+  --Dark-grayish-blue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+
+  --heading-font: "Fraunces", serif;
+  --paragraph-font: "Montserrat", serif;
+  --fs-heading: 2rem;
+  --fs-paragraph: 0.875rem;
+
+}
+
+/* reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+body {
+  background: var(--Cream);
+  font-family: var(--paragraph-font);
+  font-size: var(--fs-paragraph);
+  color: var(--Dark-grayish-blue);
+  line-height: 1.5rem;
+}
+
+h1, h2 {
+  font-family: var(--heading-font);
+  font-size: var(--fs-heading);
+  line-height: 2rem;
+}
+
+/* text style */
+
+p {
+  font-weight: 500;
+}
+
+.product-name {
+  color: var(--Very-dark-blue);
+}
+
+.current-price {
+  color: var(--Dark-cyan);
+}
+
+button > p {
+  color: var(--White);
+}
+
+.product {
+  font-size: 12px;
+  
+}
+/* general style */
+
+.wrapper {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background: var(--White);
+  max-width: 21rem;
+  border-radius: .6rem;
+  margin: 2rem 0;
+  
+}
+
+.product-content {
+  padding: 1.438rem;
+}
+
+.product-image {
+  border-radius: .6rem .6rem 0 0;
+}
+
+.cart-icon {
+  width: .9rem;
+  margin-right: .6rem;
+}
+
+
+
+/* layout */
+
+.product-name {
+  margin-top: .6rem;
+}
+
+.product-description {
+  margin-top: 1rem;
+}
+.prices {
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+
+}
+
+.current-price {
+  margin-right: 1rem;
+}
+
+.cart-button {
+  display: flex;
+  background: var(--Dark-cyan);
+  border: none;
+  padding: 0.938rem ;
+  width: 100%;
+  border-radius: .6rem;
+  place-content: center;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+@media (min-width: 1440px) {
+  .card {
+    display: flex;
+    max-width: 35rem;
+  }
+
+  .product-image {
+    height: 100%;
+    border-radius: .6rem 0 0 .6rem;
+    
+  }
+
+  .product-content {
+    width: 100%;
+  }
+
+}  
+
