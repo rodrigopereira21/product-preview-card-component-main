@@ -64,7 +64,7 @@ p {
   color: var(--Dark-cyan);
 }
 .old-price {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 0.813rem;
 }
 button > p {
@@ -75,7 +75,7 @@ button > p {
   font-size: 12px;
   margin-top: .4rem;
   margin-bottom: .9rem;
-  font-weight: 400;
+  font-weight: 500;
   
 }
 
