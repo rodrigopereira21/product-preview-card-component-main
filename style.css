@@ -63,14 +63,16 @@ p {
 .current-price {
   color: var(--Dark-cyan);
 }
-
+.old-price {
+  font-weight: 500;
+}
 button > p {
   color: var(--White);
 }
 
 .product {
   font-size: 12px;
-  margin-top: .5rem;
+  margin-top: .4rem;
   margin-bottom: .9rem;
   
 }
