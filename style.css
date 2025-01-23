@@ -102,6 +102,7 @@ button > p {
 
 .product-content {
   padding: 1.5rem;
+  
 }
 
 .product-image {
@@ -145,6 +146,7 @@ button > p {
   place-content: center;
   font-weight: bold;
   transition: ease .3s;
+  
 }
 
 .cart-button:hover {
