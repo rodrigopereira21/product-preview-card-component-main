@@ -69,6 +69,7 @@ button > p {
 .product {
   font-size: 12px;
   
+  
 }
 
 .attribution { 
@@ -112,7 +113,7 @@ button > p {
 /* layout */
 
 .product-name {
-  margin-top: 1rem;
+  margin-top: 1.2rem;
 }
 
 .product-description {
