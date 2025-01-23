@@ -7,6 +7,7 @@
 :root {
   --Dark-cyan: hsl(158, 36%, 37%);
   --Cream: hsl(30, 38%, 92%);
+  --Dark-cyan-hover: #1A4032;
 
   --Very-dark-blue: hsl(212, 21%, 14%);
   --Dark-grayish-blue: hsl(228, 12%, 48%);
@@ -46,6 +47,7 @@ h1, h2 {
   font-family: var(--heading-font);
   font-size: var(--fs-heading);
   line-height: 2rem;
+
 }
 
 /* text style */
@@ -68,7 +70,7 @@ button > p {
 
 .product {
   font-size: 12px;
-  line-height: 1;
+  margin-bottom: 1.25rem;
   
 }
 
@@ -89,7 +91,7 @@ button > p {
 
 .card {
   background: var(--White);
-  max-width: 21rem;
+  max-width: 22.4375rem;
   border-radius: .6rem;
   margin: 2rem 0;
   
@@ -113,17 +115,17 @@ button > p {
 /* layout */
 
 .product-name {
-  margin-top: 1.2rem;
+  margin-bottom: 1.5rem;
 }
 
 .product-description {
-  margin-top: 1rem;
+  margin-bottom: 1.5rem;
 }
 .prices {
   display: flex;
   align-items: center;
   padding-top: 1.2rem;
-  margin: .5rem 0;
+  margin-bottom: 1.875rem;
 
 }
 
@@ -146,19 +148,20 @@ button > p {
 
 .cart-button:hover {
   cursor: pointer;
-  background: var(--Very-dark-blue);
+  background: var(--Dark-cyan-hover);
 }
 
 
 
-@media (min-width: 600px) {
+@media (min-width: 37.5rem) {
   .card {
     display: flex;
-    max-width: 36.5rem;
+    max-width: 36.532rem;
   }
 
   .product-image {
     height: 100%;
+    width: 18.75rem;
     border-radius: .6rem 0 0 .6rem;
     
   }
