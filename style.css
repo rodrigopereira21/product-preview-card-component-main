@@ -139,12 +139,20 @@ button > p {
   place-content: center;
   font-weight: bold;
   margin-top: 1.5rem;
+  transition: ease .3s;
 }
+
+.cart-button:hover {
+  cursor: pointer;
+  background: var(--Very-dark-blue);
+}
+
+
 
 @media (min-width: 1440px) {
   .card {
     display: flex;
-    max-width: 35rem;
+    max-width: 36rem;
   }
 
   .product-image {
