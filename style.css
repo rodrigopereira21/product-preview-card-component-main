@@ -70,7 +70,7 @@ button > p {
 
 .product {
   font-size: 12px;
-  margin-bottom: 0.6rem;
+  margin-bottom: 1rem;
   
 }
 
@@ -119,7 +119,7 @@ button > p {
 }
 
 .product-description {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.8rem;
 }
 .prices {
   display: flex;
@@ -158,7 +158,6 @@ button > p {
   }
 
   .product-image {
-    
     width: 18.75rem;
     height: 26.3rem;
     border-radius: .6rem 0 0 .6rem;
