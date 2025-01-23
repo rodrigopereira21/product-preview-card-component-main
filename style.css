@@ -70,7 +70,7 @@ button > p {
 
 .product {
   font-size: 12px;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.6rem;
   
 }
 
@@ -91,14 +91,14 @@ button > p {
 
 .card {
   background: var(--White);
-  max-width: 22.4375rem;
+  max-width: 21.438rem;
   border-radius: .6rem;
   margin: 2rem 0;
   
 }
 
 .product-content {
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 .product-image {
@@ -115,7 +115,7 @@ button > p {
 /* layout */
 
 .product-name {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .product-description {
@@ -124,8 +124,7 @@ button > p {
 .prices {
   display: flex;
   align-items: center;
-  padding-top: 1.2rem;
-  margin-bottom: 1.875rem;
+  margin-bottom: 1.5rem;
 
 }
 
@@ -142,7 +141,6 @@ button > p {
   border-radius: .6rem;
   place-content: center;
   font-weight: bold;
-  margin-top: 1.5rem;
   transition: ease .3s;
 }
 
@@ -160,14 +158,19 @@ button > p {
   }
 
   .product-image {
-    height: 100%;
+    
     width: 18.75rem;
+    height: 27rem;
     border-radius: .6rem 0 0 .6rem;
     
   }
 
   .product-content {
-    width: 100%;
+    width: 18.75rem;
+  }
+
+  .cart-button {
+    margin-bottom: 0;
   }
 
 }  
